@@ -1,0 +1,34 @@
+ 
+ /* ISTO É UM COMENTARIO EM CSS */
+
+ div{
+    /*  DEFENIR UM NOME EM CSS */
+    width:400px;
+    height:300px;
+    background-color: orange;
+    margin-top: 40px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+    margin: 40px 25px 50px 20px;
+   }
+
+/* DEFENIR UMA CLASS EM CSS*/   
+.par{
+   background-color: red;
+}
+
+p{
+   font-size: 18px;
+   margin: 0;
+}
+
+/* HIERARQUIA */   
+.par p{
+   background-color: lightblue;
+}
+
+.par p span{
+   background-color: purple;
+}

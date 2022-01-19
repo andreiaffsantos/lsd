@@ -1,0 +1,49 @@
+body{
+    
+}
+
+.cx-1, .cx-2{
+    /*  30px de cada lado = 60px */
+    margin: 30px;
+}
+
+.cx-1{
+    /*  Usar % torna o site adaptável */
+    width: calc(100% - 60px);
+    height: 100px;
+    background: rgb(100, 194, 100);
+}
+
+.cx-2{
+    width: calc(50% - 60px);
+    height: 100px;
+    background: rgb(194, 194, 194);
+    float: left;
+}
+
+.cx-interior{
+    width: 100%;
+    height: 50px;
+    background: rgb(252, 252, 130);
+}
+
+
+.cx-interior-1, .cx-interior-2, .cx-interior-3{
+    /*  10px de cada lado = 20px */
+    width: calc(33.33% - 20px);
+    height: 80px;
+    float: left;
+    padding: 10px;
+}
+
+.cx-interior-1{
+    background: rgb(236, 129, 236);
+}
+
+.cx-interior-2{
+    background: rgb(118, 205, 240);
+}
+
+.cx-interior-3{
+    background: rgb(236, 129, 236);
+}
